@@ -14,7 +14,7 @@ class jugador{
         this.posicion = posicion;
         this.idioma= idioma;
 
-        this.info = `soy ${this.esp}, tengo ${this.ege}, y soy de color ${this.color}`;
+        this.info = `Nombre ${this.nombre}, nacion ${this.nacion}, equipo ${this.equipo}, edad ${this.edad}, posicion ${this.posicion}, idioma ${this.idioma}`;
     
     }
     verInfo(){
@@ -28,7 +28,7 @@ class jugadorUltimaPrediccion extends jugador
         super(nombre,origen,edad,equipo,posicion,idioma)
         this.probabilidad = probabilidad;
     }
-    ladrar(){
+    posicion(){
         alert("WOw");
     }
 }
