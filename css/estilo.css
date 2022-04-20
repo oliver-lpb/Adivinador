@@ -1,0 +1,89 @@
+body{
+    background: black;
+    font-size: 30px;
+}
+
+.contenedorM{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.contenido{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adivinador{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+
+    justify-self: center;
+    justify-items: center;
+    
+}
+
+.texto{
+    margin: 0;
+    padding: 0;
+
+}
+.personaje{
+    background: rgb(83, 83, 83);
+    padding: 20px;
+    border-radius: 20%;
+    margin: 10px;
+
+}
+
+.respueta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    
+
+}
+
+.nombrePersonaje{
+    margin: 10px;
+
+}
+.pistas{
+    margin: 10px;
+    padding: 10px;
+
+}
+.enviar{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.buscadorOf{
+    display: none;
+
+    
+}
+.buscadorOn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pregunta{
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
